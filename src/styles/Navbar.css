@@ -1,0 +1,30 @@
+/* Variables that apply to navbar */
+:root {
+  --text-color: white;
+}
+
+/* Navbar style */
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2rem;
+  padding-bottom: 5rem;
+}
+
+.navbar-logo {
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+.navbar-links > .navbar > .links-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.links-ul a {
+  color: var(--text-color);
+}

@@ -1,0 +1,15 @@
+:root {
+  --button-text-color: black;
+}
+
+button {
+  background-color: aqua;
+  border: none;
+  color: white;
+  padding: 0.3rem 0.7rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--button-text-color);
+  border-radius: 3px;
+}
